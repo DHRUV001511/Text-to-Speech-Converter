@@ -1,8 +1,5 @@
-# Text-to-Speech-Converter
 
-# Text-to-Speech Converter
-
-![Demo](./assets/demo.png)  
+ 
 *A powerful and beautifully designed text-to-speech converter with enhanced functionality.*
 
 ## 🚀 Features
@@ -14,6 +11,7 @@
 
 ## 📸 Demo Screenshots
 
+![Image](https://github.com/user-attachments/assets/694b566f-5bba-4ffd-9df3-f0c3306aee8f)
 
 ## 📂 How to Use
 
