@@ -15,7 +15,7 @@ body {
   background: radial-gradient(circle at center, #031a3d, #010a13, #000);
   color: #fff;
   overflow: hidden;
-  cursor: url("https://cur.cursors-4u.net/cursors/cur-2/cur116.cur"), auto; /* Custom Cursor */
+  cursor: url("https://cur.cursors-4u.net/cursors/cur-2/cur116.cur"), auto;
 }
 
 .container {
