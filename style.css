@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, #031a3d, #010a13, #000);
+  color: #fff;
+  overflow: hidden;
+  cursor: url("https://cur.cursors-4u.net/cursors/cur-2/cur116.cur"), auto; /* Custom Cursor */
+}
+
+.container {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  background: rgba(15, 15, 30, 0.9);
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 174, 255, 0.6);
+  border: 2px solid rgba(0, 174, 255, 0.7);
+}
+
+h1 {
+  font-size: 20px;
+  color: #00eaff;
+  text-shadow: 0 0 10px #00eaff;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+  margin: 20px 0;
+  padding: 12px 18px;
+  resize: none;
+  outline: none;
+  border: 2px solid #00aaff;
+  background: rgba(10, 10, 25, 0.9);
+  color: #00eaff;
+  font-size: 16px;
+  caret-color: #00eaff;
+}
+
+textarea:focus {
+  border-color: #00eaff;
+  box-shadow: 0 0 10px #00eaff;
+}
+
+button {
+  width: 100%;
+  padding: 14px 0;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background: linear-gradient(135deg, #0077ff, #00caff);
+  cursor: pointer;
+  font-weight: bold;
+  text-shadow: 0 0 5px #000;
+  box-shadow: 0 0 15px rgba(0, 170, 255, 0.8);
+  transition: all 0.4s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #00aaff, #0077ff);
+  box-shadow: 0 0 20px #00eaff, 0 0 40px #00eaff;
+  transform: scale(1.05);
+}
